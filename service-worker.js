@@ -15,13 +15,13 @@ var filesToCache = [
   `${HOST}/imagens/icons/icon-152x152.png`,
   `${HOST}/imagens/icons/icon-192x192.png`,
   `${HOST}/imagens/icons/icon-256x256.png`,
-  `${HOST}bulma.css`,
-  `${HOST}app.css`,
-  `${HOST}index.html`,
-  `${HOST}store.js`,
-  `${HOST}todo_e6.js`,
-  `${HOST}service-worker.js`,
-  `${HOST}manifest.json`
+  `${HOST}/bulma.css`,
+  `${HOST}/app.css`,
+  `${HOST}/index.html`,
+  `${HOST}/store.js`,
+  `${HOST}/todo_e6.js`,
+  `${HOST}/service-worker.js`,
+  `${HOST}/manifest.json`
 ];
 
 self.addEventListener('install', function(e) {
